@@ -19,6 +19,7 @@ b. Cell的里面创建一个UIImageView数组，每个UIImageView固定加载同
 c. 开启UIImageView的光栅化，这样整张UIImage显示的图片都将成为离屏渲染的区域
 
 ![IMG_0005.png](https://upload-images.jianshu.io/upload_images/1627220-6d23b69e909b87a3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 我们最终在手机上得到的效果：
 
 ![IMG_0006.png](https://upload-images.jianshu.io/upload_images/1627220-a84bbceedfd5f7b2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
