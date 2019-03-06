@@ -69,7 +69,6 @@ class ViewController: UIViewController {
     func configUI() {
         tableView.dataSource = self
         tableView.register(CellView.classForCoder(), forCellReuseIdentifier: CellView.reuseIdentifier)
-
     }
 }
 
