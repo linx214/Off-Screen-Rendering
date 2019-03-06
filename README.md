@@ -109,6 +109,7 @@ https://github.com/linx214/Off-Screen-Rendering.git
 在Instuments中调试工程
 
 ![image.png](https://upload-images.jianshu.io/upload_images/1627220-2da9d363c577be6b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 Touch5，真机调试，在cell滑动时，最大帧数3帧，GPU利用率92%~95%，CPU利用率平均在6%
 #3. 如何优化离屏渲染
 ---
