@@ -14,10 +14,13 @@
 ---
 a. 创建一个UITableView，设置其Cell固定row有2000个。
 b. Cell的里面创建一个UIImageView数组，每个UIImageView固定加载同一张图片，在布局的时候，每张图片大小比之前一张图片的size减1，形成汉诺塔的叠加样子
+
 ![image.png](https://upload-images.jianshu.io/upload_images/1627220-cbb8c0fd5ce462bd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 c. 开启UIImageView的光栅化，这样整张UIImage显示的图片都将成为离屏渲染的区域
+
 ![IMG_0005.png](https://upload-images.jianshu.io/upload_images/1627220-6d23b69e909b87a3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 我们最终在手机上得到的效果：
+
 ![IMG_0006.png](https://upload-images.jianshu.io/upload_images/1627220-a84bbceedfd5f7b2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ViewController代码如下：
